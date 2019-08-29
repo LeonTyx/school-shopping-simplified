@@ -1,0 +1,20 @@
+@import "./variables.scss";
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f5f7fb;
+}
+
+header{
+  a {
+    color: $primary-text-color;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.75em;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.75em;
+    box-shadow: 0 -22px 15px 28px rgba(135, 135, 135, 0.09);
+    background: #fff;
+    display:block;
+  }
+}

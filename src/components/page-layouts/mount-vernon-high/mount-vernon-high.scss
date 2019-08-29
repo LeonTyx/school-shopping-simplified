@@ -1,0 +1,16 @@
+@import "../../../variables.scss";
+
+.mount-vernon-high{
+  background: #fff;
+  color: $secondary-text-color;
+  max-width: 50em;
+  width: calc(100% - 2em);
+  margin:auto;
+  padding:1em;
+  box-sizing: border-box;
+  border-radius: .5em;
+  border:.1em solid #ddd;
+  h2{
+    margin:0;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../../variables.scss";
+
+nav {
+  width: 100%;
+  text-align: center;
+
+  box-shadow: 0 2px 20px 8px rgba(135, 135, 135, 0.5);
+  padding: .75em;
+  box-sizing: border-box;
+
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+
+  overflow: auto;
+  white-space: nowrap;
+  a {
+    margin:0 .2em;
+    display: inline-block;
+    color: #444;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+  
+    padding: .2em .75em;
+    box-sizing: border-box;
+    border-radius:3em;
+      
+    &:visited {
+      text-decoration: none;
+    }
+    &.elementary{
+      &:hover{
+        background: $light-background;
+      }    
+      &.active{
+        background: $light-background;
+      }
+    }
+    &.middle{
+      &:hover{
+        background: #ffdeb1;
+      }    
+      &.active{
+        background: #ffdeb1;
+      }
+    }
+    &.high{
+      &:hover{
+        background: #c3e9d0;
+      }    
+      &.active{
+        background: #c3e9d0;
+      }
+    }
+  }
+}
+//#f77606
+//#018445

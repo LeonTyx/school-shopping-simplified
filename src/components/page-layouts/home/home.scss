@@ -1,0 +1,65 @@
+@import '../../../variables.scss';
+
+.home-page{
+  box-sizing: border-box;
+
+  .home-splash{
+    max-width: 50em;
+    margin:auto;
+
+    img{
+      width:100%;
+      border-radius:69% 31% 42% 33% / 65% 29% 69% 37% ;
+    }
+
+    p{
+      margin:0;
+      font-size:1.2em;
+      font-weight: 500;
+      color:$secondary-text-color;
+      text-align: center;
+      padding:1em;
+    }
+  }
+
+  .school-supply-events{
+    background: #508ff4;
+    padding:1em 2em 7em;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 4em;
+
+    h2{
+      max-width: 60em;
+      margin: 1em auto;
+      text-align: center;
+      color:#fff;
+    }
+    p{
+      max-width: 60em;
+      text-align: center;
+      color:#fff;
+      font-weight: 500;
+      margin: 0 auto;
+    }
+
+    .events-list{
+      max-width: 60em;
+      margin: 1em auto;
+      list-style-type: none;
+      padding:0;
+      .event{
+        background:#fff;
+        padding:1em;
+        margin:1em 0;
+        border-radius: .5em;
+
+        a{
+          color:$secondary-text-color;
+          font-weight: 500;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
